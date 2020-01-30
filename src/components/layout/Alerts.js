@@ -17,7 +17,7 @@ export class Alerts extends Component {
         alert.error(`Resource Name: ${error.msg.name.join()}`);
       }
       if (error.msg.link) {
-        alert.error(`Link: ${error.msg.link.join()}`);
+        alert.error(`Link: ${error.msg.link}`);
       }
       if (error.msg.description) {
         alert.error(`Description: ${error.msg.description.join()}`);
