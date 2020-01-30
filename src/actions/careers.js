@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "../axios";
 import { createMessage, returnErrors } from "./messages";
 
 import { GET_CAREERS, ADD_CAREER } from "./types";

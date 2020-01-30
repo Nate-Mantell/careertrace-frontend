@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "../axios";
 import { returnErrors } from "./messages";
 
 import { GET_CAREERKEYWORDS } from "./types";

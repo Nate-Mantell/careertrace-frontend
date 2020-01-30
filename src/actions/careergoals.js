@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "../axios";
 import { createMessage, returnErrors } from "./messages";
 import { tokenConfig } from "./auth";
 
