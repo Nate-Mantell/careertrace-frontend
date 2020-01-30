@@ -31,7 +31,7 @@ const alertOptions = {
   }
 };
 
-class App extends Component {
+export class App extends Component {
   componentDidMount() {
     store.dispatch(loadUser());
   }
@@ -76,5 +76,3 @@ class App extends Component {
     );
   }
 }
-
-ReactDOM.render(<App />, document.getElementById("app"));
