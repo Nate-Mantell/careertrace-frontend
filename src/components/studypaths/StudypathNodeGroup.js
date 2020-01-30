@@ -98,7 +98,11 @@ export class StudypathNodeGroup extends Component {
               : selected_node.resource.description.substring(0, 200) + "..."}
           </p>
           {studypath_nodes.nodes.length > 1 ? (
-            <a onClick={() => this.incrementSelectedNode()} className="mr-2">
+            <a
+              href="#"
+              onClick={() => this.incrementSelectedNode()}
+              className="mr-2"
+            >
               <img
                 src="http://mantellsolutions.com/careerpath/img/LeftArrowIcon-1.png"
                 width="30em"
@@ -120,7 +124,11 @@ export class StudypathNodeGroup extends Component {
             <span className="fa fa-external-link ml-2"> </span>
           </a>
           {studypath_nodes.nodes.length > 1 ? (
-            <a onClick={() => this.decrementSelectedNode()} className="ml-2">
+            <a
+              href="#"
+              onClick={() => this.decrementSelectedNode()}
+              className="ml-2"
+            >
               <img
                 src="http://mantellsolutions.com/careerpath/img/RightArrowIcon-1.png"
                 width="30em"
