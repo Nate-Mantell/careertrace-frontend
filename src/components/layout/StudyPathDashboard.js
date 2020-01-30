@@ -6,7 +6,7 @@ import CareerGoalsForm from "../forms/CareerGoalsForm";
 import Studypaths from "../studypaths/Studypaths";
 
 export class StudyPathDashboard extends Component {
-  static proptypes = {
+  static propTypes = {
     studypath_pending_retreival: PropTypes.bool.isRequired,
     studypath_is_generating: PropTypes.bool.isRequired,
     studypath_retreived: PropTypes.bool.isRequired,

@@ -13,7 +13,7 @@ export class Studypaths extends Component {
     selected_studypath: 0
   };
 
-  static proptypes = {
+  static propTypes = {
     studypath_pending_retreival: PropTypes.bool.isRequired,
     studypaths: PropTypes.array.isRequired,
     getStudypaths: PropTypes.func.isRequired,
