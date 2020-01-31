@@ -56,9 +56,7 @@ export class Resources extends Component {
                   ? resource.description
                   : resource.description.substring(0, 200) + "..."}
               </p>
-              <a href="#" className="btn btn-primary mr-2">
-                View Details
-              </a>
+              <button className="btn btn-primary mr-2">View Details</button>
               <a
                 href={resource.link}
                 target="_blank"

@@ -19,9 +19,7 @@ export const Career = props => {
             ? career.description
             : career.description.substring(0, 200) + "..."}
         </p>
-        <a href="#" className="btn btn-primary mr-2">
-          View Details
-        </a>
+        <button className="btn btn-primary mr-2">View Details</button>
       </div>
     </div>
   );
