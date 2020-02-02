@@ -7,7 +7,7 @@ export default function Dashboard() {
       <div className="row">
         <div className="col-sm-6">
           <Link to="/study_path">
-            <div className="card my-4" key="plaque_GenerateStudyPath">
+            <div className="card rounded my-4" key="plaque_GenerateStudyPath">
               <div className="card-header card-title text-center">
                 <h2>Generate Your Career Study Path</h2>
               </div>
@@ -23,7 +23,7 @@ export default function Dashboard() {
         </div>
         <div className="col-sm-6">
           <Link to="/browse_resources">
-            <div className="card my-4" key="plaque_BrowseResources">
+            <div className="card rounded my-4" key="plaque_BrowseResources">
               <div className="card-header card-title text-center">
                 <h2>Browse Through Useful Resources</h2>
               </div>
@@ -40,7 +40,7 @@ export default function Dashboard() {
       <div className="row">
         <div className="col-sm-6">
           <Link to="/career_goals">
-            <div className="card my-4" key="plaque_CareerGoals">
+            <div className="card rounded my-4" key="plaque_CareerGoals">
               <div className="card-header card-title text-center">
                 <h2>Enter Your Career Goals</h2>
                 <h3>Discover career opportunities</h3>
@@ -59,7 +59,7 @@ export default function Dashboard() {
         </div>
         <div className="col-sm-6">
           <Link to="/add_resources">
-            <div className="card my-4" key="plaque_AddResources">
+            <div className="card rounded my-4" key="plaque_AddResources">
               <div className="card-header card-title text-center">
                 <h2>Add Resources for Credibility</h2>
                 <h3>Improve your portfolio of achievements</h3>
