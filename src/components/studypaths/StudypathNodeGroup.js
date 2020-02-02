@@ -77,7 +77,7 @@ export class StudypathNodeGroup extends Component {
     );
     return (
       <div
-        className="card my-4"
+        className="card rounded my-4"
         key={id + "_StudypathNodeCard" + selected_node_id}
       >
         <div className="card-header card-title text-center StudyPath_StudyPathNode_card_header">
