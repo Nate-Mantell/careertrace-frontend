@@ -3,7 +3,7 @@ import React from "react";
 export const Career = props => {
   const { career } = props;
   return (
-    <div className="card my-4" key={"careerCard" + career.id}>
+    <div className="card rounded my-4" key={"careerCard" + career.id}>
       <div className="card-header card-title text-center StudyPath_Career_card_header">
         <h5>{career.name}</h5>
       </div>
