@@ -42,7 +42,7 @@ export class Resources extends Component {
     return (
       <div className="col-sm-6">
         {this.props.resources.map(resource => (
-          <div className="card my-4" key={"resourceCard" + resource.id}>
+          <div className="card rounded my-4" key={"resourceCard" + resource.id}>
             <div className="card-header card-title text-center">
               <h5>{resource.name || ""}</h5>
             </div>
