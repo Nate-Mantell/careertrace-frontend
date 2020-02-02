@@ -19,7 +19,7 @@ export const Career = props => {
             ? career.description
             : career.description.substring(0, 200) + "..."}
         </p>
-        <button className="btn btn-primary mr-2">View Details</button>
+        <button className="btn btn-primary rounded mr-2">View Details</button>
       </div>
     </div>
   );
