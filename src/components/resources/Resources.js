@@ -56,11 +56,13 @@ export class Resources extends Component {
                   ? resource.description
                   : resource.description.substring(0, 200) + "..."}
               </p>
-              <button className="btn btn-primary mr-2">View Details</button>
+              <button className="btn btn-primary rounded mr-2">
+                View Details
+              </button>
               <a
                 href={resource.link}
                 target="_blank"
-                className="btn btn-primary mx-2"
+                className="btn btn-primary rounded mx-2"
               >
                 Visit Resource
                 <span className="fa fa-external-link ml-2"> </span>
