@@ -13,7 +13,7 @@ export default function Dashboard() {
               </div>
               <div className="card-body">
                 <p className="card-text">
-                  Get started by generating your Study Path. We will walk you
+                  Get started by generating your Study Path™. We will walk you
                   through a series of steps to generate a list of resources for
                   you to study on your way to career success!
                 </p>
